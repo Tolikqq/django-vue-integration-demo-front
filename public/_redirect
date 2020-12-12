@@ -1,2 +1,3 @@
+
+/api/*  https://8bd0cb1ad965.ngrok.io/api/:splat  200
 /*    /index.html   200
-/api/*  http://8bd0cb1ad965.ngrok.io/api/:splat  200
