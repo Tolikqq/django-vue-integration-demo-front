@@ -15,6 +15,14 @@ const routes = [
     name: 'Sepulkas',
     component: () => import(/* webpackChunkName: "about" */ '../views/Sepulkas.vue'),
   },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Login.vue'),
+    meta: {
+     anon: true,
+    }
+  },
 ];
 
 const router = new VueRouter({
