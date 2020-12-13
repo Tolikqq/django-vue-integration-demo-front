@@ -5,9 +5,7 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 
-Vue.$axios = axios.create({
-  baseURL:'https://8bd0cb1ad965.ngrok.io'
-});
+Vue.$axios = axios.create();
 
 Vue.config.productionTip = false;
 
