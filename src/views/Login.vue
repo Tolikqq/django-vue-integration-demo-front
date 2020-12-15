@@ -3,7 +3,6 @@
     <input type="text" name="username" placeholder="username" v-model="username">
     <input type="password" name="password" placeholder="password" v-model="password">
     <input type="submit" value="Залогиниться" />
-    <router-link to="/sepulkas"> Смотреть на базу сепулек </router-link>
   </form>
 </template>
 <script>
